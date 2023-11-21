@@ -31,20 +31,18 @@ function pedirNumeros() {
   pedirNumeros()
 
   function mostrarObjetos() {
-    // Crear un array con los objetos dados
     let array = [
       { tamaño: "llavero", color: "azul", peso: 50 }, // llavero
-      { tamaño: "figura de 5 a 10 cm", color: "a elección", peso: 150 }, // figura de 5 a 10 cm
-      { tamaño: "figura de 10 a 20 cm", color: "a elección", peso: 300 }, // figura de 10 a 20 cm
-      { tamaño: "figura de 20 a 30 cm", color: "a elección", peso: 600 }, // figura de 20 a 30 cm
-      { tamaño: "figura de 30 a 50 cm", color: "a elección", peso: 800 }, // figura de 30 a 50 cm
-      { tamaño: "figura de 50 a 75 cm", color: "a elección", peso: 2000 }, // figura de 50 a 75 cm
-      { tamaño: "figura de 75 cm a 1 mt", color: "a elección", peso: 4000 } // figura de 75 cm a 1 mt
+      { tamaño: "figura de 5 a 10 cm", color: "a elección", peso: 150 }, 
+      { tamaño: "figura de 10 a 20 cm", color: "a elección", peso: 300 },
+      { tamaño: "figura de 20 a 30 cm", color: "a elección", peso: 600 }, 
+      { tamaño: "figura de 30 a 50 cm", color: "a elección", peso: 800 },
+      { tamaño: "figura de 50 a 75 cm", color: "a elección", peso: 2000 }, 
+      { tamaño: "figura de 75 cm a 1 mt", color: "a elección", peso: 4000 } 
     ];
   
-    // Recorrer el array de objetos
+    
     for (let i = 0; i < array.length; i++) {
-      // Mostrar al usuario los datos del objeto
       alert(
         "El objeto número " +
           (i + 1) +
@@ -66,4 +64,4 @@ function pedirNumeros() {
   
   let numeroObjeto = prompt("Ingresa el número del objeto con tamaño/peso deseado")
 
-  alert("Muy bien " + nombreUsuario + " , ahora sólo presione el botón Seleccionar Archivo y cargue la imagen a modo de ejemplo del producto que desea imprimir con nosotros")
+  alert("Muy bien, usted eligió el objeto tipo " + numeroObjeto + " , ahora sólo presione el botón Seleccionar Archivo y cargue la imagen a modo de ejemplo del producto que desea imprimir con nosotros")
